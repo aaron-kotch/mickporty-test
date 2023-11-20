@@ -1,0 +1,11 @@
+.filterListing-filter {
+    flex: 0 0 3rem;
+    text-align: right;
+    .filterListing-filter_dropdown {
+      opacity: 0;
+      height: 2rem;
+      width: 2.5rem;
+      z-index: 1;
+      position: absolute;
+    }
+  }

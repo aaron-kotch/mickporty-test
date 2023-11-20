@@ -1,0 +1,10 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "name": "Favourite Addresses",
+      "route": "/favourite-addresses",
+      "guarded": true
+    }
+  ]
+}

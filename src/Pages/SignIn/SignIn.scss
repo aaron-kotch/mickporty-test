@@ -1,0 +1,26 @@
+.signIn-container{
+  // min-height: 100vh;
+  padding: 0 1rem;
+  text-align: center;
+  .signIn-title{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .signIn-content{
+    text-align: left;
+  }
+  .signIn-button{
+    margin-top: 3rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    position: absolute;
+    // bottom: 20px;
+    right: 20%;
+    width: 60%;
+    font-weight: bold;
+  }
+  .signIn-tncLink{
+    text-decoration: underline;
+    color: #1E91CF;
+  }
+}

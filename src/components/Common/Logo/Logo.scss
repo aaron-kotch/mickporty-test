@@ -1,0 +1,13 @@
+@import "../../../assets/styles/mixins.scss";
+
+.logo-container {
+  flex-grow: 1;
+  text-align: center;
+  .logo {
+    width: 100%;
+    max-width: 150px;
+    @include for-max-phone-layout {
+      max-width: 120px;
+    }
+  }
+}

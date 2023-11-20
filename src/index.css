@@ -1,0 +1,45 @@
+@font-face {
+  src: url("./assets//fonts/FamilyMartFonts/DINRegular.ttf") format("truetype");
+  font-family: din_regular;
+}
+@font-face {
+  src: url('./assets/fonts/FamilyMartFonts/DINBold.ttf') format("truetype");
+  font-family: din_bold;
+}
+@font-face {
+  src: url('./assets/fonts/FamilyMartFonts/DINLight.ttf') format("truetype");
+  font-family: din_light;
+}
+@font-face {
+  src: url('./assets/fonts/FamilyMartFonts/DINMedium.ttf') format("truetype");
+  font-family: din_medium;
+}
+@font-face {
+  src: url('./assets/fonts/FamilyMartFonts/DINProBold.ttf') format("truetype");
+  font-family: din_pro_bold;
+}
+@font-face {
+  src: url('./assets/fonts/FamilyMartFonts/DINBold-Bold.otf') format("opentype");
+  font-family: "DINBold-Bold";
+}
+
+
+body {
+  margin: 0;
+  font-family: din_regular, din_bold, din_light, din_medium, din_pro_bold, "DINBold-Bold";
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html, body, #root{
+  height: 100%;
+  background-color: white;
+}

@@ -1,0 +1,78 @@
+.primary-btn {
+  color: #fff;
+  font-size: 12.5px;
+  background: #1e91cf 0% 0% no-repeat padding-box;
+  padding: 6.5px 20px;
+  border-radius: 23px;
+  width: 80%;
+  height: 35px;
+  line-height: initial;
+  &:hover {
+    background-color: rgb(237, 170, 52);
+    color: #fff;
+    opacity: 0.8;
+  }
+}
+.secondary-btn-box {
+  // margin-block-start: 0.5em;
+  margin-block-end: 0.83em;
+  margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex: 0 0 4rem;
+  text-align: right;
+  
+  .secondary-btn {
+    align-self: center;
+    font-size: small;
+    color: #1e91cf;
+    font-family: din_bold, din_regular;
+  }
+  .hidden-dropdown{
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    height: 3rem;
+    margin-top: -15px;
+    margin-left: -50px;
+  }
+
+}
+.secondary-btn-box-dynamic {
+  // margin-block-start: 0.5em;
+  // margin-block-end: 0.83rem;
+  margin-right: 0.2rem;
+  flex: 0 0 4rem;
+  text-align: left;
+  // margin-top: 3px;
+
+  .hidden-dropdown-dynamic{
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    height: 4rem;
+    margin-top: -35px;
+    // margin-left: -50px;
+  }
+
+  .hidden-dropdown-slide-left{
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    height: 3rem;
+    margin-top: -15px;
+    margin-left: -10rem;
+  }
+
+
+  .secondary-btn-dynamic {
+    font-weight: 500;
+    font-size: 0.7rem;
+    color: #1e91cf;
+    margin-bottom: -5px;
+  }
+  select{
+    width: 120px;
+    height: 35px;
+  }
+}

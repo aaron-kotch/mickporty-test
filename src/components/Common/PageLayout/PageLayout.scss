@@ -1,0 +1,33 @@
+#ptr-container {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+.greyBg{
+  background-color: #F2F2F7
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  // height: 30%;
+  // font-weight: 600;
+  // height: 60px;
+  // line-height: 20px;
+  // background-color: aquamarine;
+  // font-size: 40px;
+  // color: #000000;
+}
+
+.sticky {
+  position: fixed;
+  top: 3.5rem;
+  padding-top: 1rem;
+  width: 93%;
+  background-color: white;
+  z-index: 1;
+  padding-bottom: 0.7rem;
+}
+
+.content-container {
+  padding-top: 14rem;
+}

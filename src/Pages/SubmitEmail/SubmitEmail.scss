@@ -1,0 +1,31 @@
+.submit_email-header_container {
+  border-bottom: 2px solid #1e91cf;
+  width: 100%;
+  height: 50px;
+}
+
+.submit_email-body_container {
+  width: 90%;
+  margin: auto;
+  .submit_email-logo_container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    .submit_email-title {
+      margin-top: 0px;
+    }
+  }
+  .submit_email-text_field_container {
+    .submit_email-text_field_title {
+      color: #1e91cf;
+    }
+    .submit_email-text_field_desc {
+      color: rgba(0, 0, 0, 0.54);
+      padding-top: 20px;
+    }
+    .button-container {
+      text-align: center;
+      margin-top: 150px;
+    }
+  }
+}

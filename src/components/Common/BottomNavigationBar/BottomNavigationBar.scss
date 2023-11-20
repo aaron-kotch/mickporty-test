@@ -1,0 +1,52 @@
+.bottom_navigationbar-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #bdbdbd;
+  z-index: 200;
+  padding-bottom: 1.25rem;
+  &::before {
+    content: " ";
+    height: 4rem;
+    position: absolute;
+    top: -2.1rem;
+    border-radius: 50%;
+    width: 4rem;
+    border: 1px solid #bdbdbd;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(135deg);
+  }
+  &.MuiBottomNavigationAction-root {
+    @media (max-width: 768px) {
+      min-width: 70px;
+      padding: 6px 2px;
+    }
+  }
+  &::after {
+    content: " ";
+    height: 2rem;
+    top: -1px;
+    border-bottom-left-radius: calc(4rem * 2);
+    border-bottom-right-radius: calc(4rem * 2);
+    position: absolute;
+    width: 4rem;
+    background: #fff;
+    z-index: 0;
+  }
+}
+
+.bottom_navigationbar-divider {
+  flex: 0 0 1rem;
+  @media (max-width: 330px) {
+    display: none;
+  }
+}
+.bottom_navigation-fab {
+  position: fixed;
+  left: 50%;
+  margin-left: -1.75rem;
+  bottom: 3.25rem;
+  z-index: 201;
+}

@@ -1,0 +1,31 @@
+@import "../../../assets/styles/mixins.scss";
+
+.menu_button-list {
+  width: 250;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .menu_button-common_list_text {
+    font-size: 0.8rem;
+    @include for-max-phone-layout {
+      font-size: 1rem;
+    }
+  }
+  .menu_button-highlight_text {
+    color: #1E91CF;
+  }
+  .menu_button-logo_wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+    .menu_button-logo {
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+}
+.menu_ver-number{
+  width: 100%;
+  text-align: center;
+}

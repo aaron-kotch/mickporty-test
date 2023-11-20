@@ -1,0 +1,16 @@
+.store_locator-header {
+  text-transform: uppercase;
+}
+.store_locator-container {
+  position: relative;
+
+  .store_locator-tabs {
+    min-height: 10px;
+  }
+  .store_locator-tab_title {
+    text-transform: capitalize;
+    min-height: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}

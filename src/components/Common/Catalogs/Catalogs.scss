@@ -1,0 +1,85 @@
+@import "../../../assets/styles/mixins.scss";
+.catalogs-container {
+  padding: 0.25rem 0rem;
+  .catalogs-in_view_trigger {
+    min-height: 245px;  // 
+    // if this is set, if item title only 1 line will have obvious padding at bottom of that catalog container 
+    // min-height: 261.5px;  
+  }
+  .catalogs-catalog_items {
+    white-space: nowrap;
+  }
+  .catalogs-contain_container {
+    overflow-x: auto;
+    padding-left: 1rem;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    padding-bottom: 6px; // Allocated for horizontal scrollbar
+
+    .catalog-spinner {
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .catalogs-contain_container--no-padding{
+    padding-left: 0;
+  }
+}
+
+.catalogs-header {
+  font-size: 1.05rem;
+  color: #616161;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  // padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  font-family: din_bold, din_regular;
+}
+.catalogs-header--no-padding {
+  padding-left: 0;
+}
+
+.catalogs-header_view_more {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  flex: 0 0 4rem;
+  text-align: right;
+
+  .catalogs-view_all_text {
+    color: #1e91cf;
+    white-space: nowrap;
+    font-family: din_bold, din_regular;
+    // font-size: medium; // medium === 16px
+    font-size: 14px;
+    // font-size: small;
+  }
+}
+
+.catalogs_grid-container {
+  scroll-behavior: smooth;
+
+  .catalogs_grid-catalog-items {
+    // Fallback if browser doesn't support
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include for-max-phone-layout {
+      // display: grid;
+      // grid-gap: 24px;
+      // grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      // grid-auto-rows: 300px;
+      // grid-template-rows: repeat(max-content, minmax(180px, 1fr));
+      // gridTemplateRows: "repeat(max-content, minmax(180px, 1fr))";
+    }
+  }
+}

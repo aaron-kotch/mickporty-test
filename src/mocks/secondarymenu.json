@@ -1,0 +1,14 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "name": "Terms & Conditions",
+      "route": "/tnc"
+    },
+    {
+      "id": "2",
+      "name": "Privacy Policy",
+      "route": "/privacy"
+    }
+  ]
+}

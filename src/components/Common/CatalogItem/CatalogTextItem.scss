@@ -1,0 +1,30 @@
+.catalog_text_item-item_frame {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  border-radius: 5%;
+}
+
+.catalog_text_item-product_item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.catalog_text_item-item_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog_text_item-text {
+  font-size: 1.1rem;
+}

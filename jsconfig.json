@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "@Common/*": ["./src/components/Common/*"],
+      "@View/*": ["./src/components/*"],
+      "@Mock/*": ["./src/mocks/*"],
+      "@Util/*": ["./src/utils/*"],
+      "@Hook/*": ["./src/hooks/*"],
+      "@Context/*": ["./src/contexts/*"]
+    }
+  }
+}

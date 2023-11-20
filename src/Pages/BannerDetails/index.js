@@ -1,0 +1,1 @@
+export { BannerDetails as default } from './BannerDetails';

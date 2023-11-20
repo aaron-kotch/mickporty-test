@@ -1,0 +1,41 @@
+@import "../../../assets/styles/mixins.scss";
+
+.key_highlights-container {
+  padding: 1rem 0rem 0rem 0rem;
+  .key_highlights-header {
+    color: #1e91cf;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 100;
+    font-family: din_bold, din_regular;
+  }
+  .key_highlights-cards_wrapper {
+    overflow-x: auto;
+    -ms-overflow-style: none /* IE and Edge */;
+    scrollbar-width: none /* Firefox */;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    white-space: nowrap;
+    padding-left: 1rem;
+    .key-hightlight-card {
+      box-shadow: unset;
+      width: 300px;
+      height: 186px;
+      border-radius: 1.5rem;
+      display: inline-block;
+      margin-right: 1rem;
+      @include for-max-phone-layout {
+        width: 250px;
+        height: 155px;
+      }
+    }
+
+    .key-hightlight-cover {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

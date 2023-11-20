@@ -1,0 +1,20 @@
+.header-container {
+  flex-grow: 1;
+  color: #1e91cf;
+  z-index: 200;
+  font: caption;
+  .header-toolbar {
+    position: relative;
+    .header-left {
+      position: absolute;
+      left: 1rem;
+    }
+    .header-center {
+      flex: 1;
+    }
+    .header-right {
+      position: absolute;
+      right: 1rem;
+    }
+  }
+}

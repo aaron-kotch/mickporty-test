@@ -1,0 +1,35 @@
+@import "../../../assets/styles/mixins.scss";
+
+.empty_state-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  height: 85%;
+  @include for-phone-only {
+    height: 90%;
+  }
+  .empty_state-flex_item {
+    flex: 1;
+  }
+  .empty_state-icon {
+    height: 5rem;
+    width: 5rem;
+  }
+  .empty_state-title {
+    color: #424242;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .empty_state-description-container {
+    color: #757575;
+    font-size: 1rem;
+    // width:50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .empty_state-description {
+    width:70%;
+  }
+}
